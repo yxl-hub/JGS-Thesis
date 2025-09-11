@@ -1,0 +1,186 @@
+\documentclass[12pt,a4paper]{article}
+
+% 页边距设置
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,right=2.5cm,left=3.2cm]{geometry}
+
+% Times New Roman 字体
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+% 行距与段落间距
+\usepackage{setspace}
+\setstretch{1.5} % 行距 1.5 倍
+\setlength{\parindent}{0pt} % 无首行缩进
+\setlength{\parskip}{1em}   % 段落间距
+
+% 标题格式
+\usepackage{titlesec}
+\titleformat{\section}{\fontsize{14pt}{14pt}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\fontsize{14pt}{14pt}\bfseries}{\thesubsection}{1em}{}
+% 设置 \section 标题的间距
+\titlespacing*{\section}
+    {0pt}                % 1. 左边距 (left margin)
+    {2\baselineskip}     % 2. 段前间距 (space before)
+    {1\baselineskip}     % 3. 段后间距 (space after)
+
+% 页码居中
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % 移除页眉线
+\fancyfoot[C]{\thepage}
+
+% APA 7 参考文献
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{english}{english-apa}
+\addbibresource{EE2.bib} % 参考文献文件
+
+\usepackage{tocloft}
+% 定义 section 条目的引导线为虚线点
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+% 定义 subsection 条目的引导线为虚线点
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftdotsep}}
+
+%图片及表格
+\usepackage{graphicx} % 用于插入图表
+\usepackage{booktabs} % 用于漂亮的表格线
+\usepackage{multirow} % 如果需要合并行
+\usepackage{tabularx} % 用于自动调整列宽
+
+%公式及超链接
+\usepackage{amsmath}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, % 设置链接颜色
+    linkcolor=black, % 目录链接颜色
+    urlcolor=cyan,   % URL链接颜色
+    citecolor=black  % 引用链接颜色
+}
+
+% 封面页命令
+\newcommand{\maketitlepage}[3]{%
+    \thispagestyle{empty}
+    \begin{center}
+        \vspace*{1cm}
+        {\fontsize{24pt}{24pt}\bfseries #1\par}
+        \vspace{12cm}
+        {\fontsize{20pt}{20pt}\bfseries #2\par}
+        \vspace{1cm}
+        {\fontsize{20pt}{20pt}\bfseries #3\par}
+    \end{center}
+    \newpage
+}
+
+\begin{document}
+
+% 封面
+\maketitlepage{REPowerEU: An Imperfect Yet Effective Response 
+to Energy Security Issues Arising from the Russia-Ukraine War}
+{Yu Xilong}{Pre-sessional EAP Course \\ 2025.6.6}
+
+\pagenumbering{roman} % 从这里开始使用罗马数字页码 (i, ii, iii...)
+% 目录
+\tableofcontents
+\clearpage
+
+\pagenumbering{arabic} % 从这里开始使用阿拉伯数字页码 (1, 2, 3...)
+% 摘要
+\section*{Abstract}
+This essay evaluates the effectiveness of the EU's REPowerEU Plan, launched in 2022 to reduce dependence on Russian energy and enhance energy security following the invasion of Ukraine.
+Analyzing three years of implementation data, the study finds the policy largely successful in its core short-term objectives. Key achievements include exceeding the gas demand reduction target (17\%),
+drastically reducing Russian fossil fuel imports (e.g., gas down to 19\% from 45\%), and accelerating renewable energy deployment, surpassing targets. Diversification mechanisms like the EU Energy 
+Platform facilitated significant new supply contracts. However, the analysis identifies significant long-term challenges, particularly divergent interests among member states regarding the energy 
+transition phase (e.g., coal dependency in Eastern Europe, nuclear debates) and unresolved concerns about distributional equity within the Plan's framework. While effectively bolstering immediate 
+energy security, the essay concludes that REPowerEU requires more flexible, country-specific implementation strategies to address internal disparities for sustained success.
+\vspace{1\baselineskip} % 3 行间距
+
+
+% 正文
+\section{Introduction}
+The Russia-Ukraine War (RUW) began in February 2022 and continues to this day. In response to Russia's aggression against Ukraine, the European Union implemented a total of nine rounds of sanctions in 
+2022, including financial sanctions, energy sanctions, and others. Russia, however, is a significant supplier of oil and natural gas to the EU. The above sanctions have greatly impacted the stability 
+of the EU energy market, leading to annual energy inflation surged by 38.3\%, with natural gas prices skyrocketing by 52.2\% (Sokhanvar Lee, 2023). To reduce reliance on Russian energy and ensure 
+the energy security of the EU, the EU has launched the REPowerEU Plan. The plan initiative has now been in effect for three years, yet a comprehensive analysis of its efficacy remains absent. This 
+essay, therefore, undertakes an evaluation of the policy's effectiveness and argues that while the policy demonstrates significant efficacy, it is not perfect.
+
+This essay will first outline the policy core measures and objectives, analyze its achievements based on data, and subsequently identify the challenges and controversies it faces.
+
+\section{Core Measures and Objectives of REPowerEU}
+The REPowerEU initiative outlines measures in three key areas to achieve the core objectives of reducing dependence on Russian energy and ensuring energy security: energy conservation and efficiency 
+improvement, diversification of energy supply, and accelerated deployment of renewable energy sources(European Commission, 2022). Regarding the definition of energy security, there is currently no 
+unified consensus. Diverse definitions primarily emphasize Energy availability, infrastructure, energy prices, societal effects, environment, governance, and energy efficiency(Ang et al., 2015). This 
+essay adopts the definition provided by the IEA: "Reliable, affordable access to all fuels and energy sources."(IEA, 2025)
+
+REPowerEU aims to achieve its objectives through a combination of increasing supply, reducing demand, and facilitating transformation. To enhance supply, it promotes diversification of energy sources, 
+with specific measures including the establishment of the "EU Energy Platform" and the "AggregateEU" mechanism, which have successfully matched nearly 100 billion cubic meters of natural gas supply and 
+demand, accounting for 30\% of the EU's total needs. Additionally, it pushes for an increase in liquefied natural gas (LNG) import capacity, aiming for an import capability of 50 billion cubic meters by 
+2024, projected to rise to 70 billion cubic meters by the end of that year(European Commission, 2022). With regard to demand reduction, the EU has established a voluntary target of cutting gas 
+consumption by 15\% compared to the 2017-2021 average through the "Regulation on Reducing Gas Demand." It has also revised the "Energy Efficiency Directive," mandating a 11.7\% reduction in final energy 
+consumption by 2030 compared to the 2020 reference scenario, with a focus on promoting building renovation (accounting for 52\% of EU gas consumption) and industrial electrification (European Commission, 
+2022). To achieve transition goals, the EU has mandated the installation of rooftop photovoltaic systems in new public buildings starting from 2025 and in residential buildings from 2029. Additionally, 
+the EU plans to produce and import 10 million tons of green hydrogen each by 2030, while establishing three major import corridors(European Commission, 2022).
+
+\section{Conclusion}
+Facing the energy crisis precipitated by the Russia-Ukraine war, the European Union swiftly formulated the REPowerEU initiative to address the situation. This plan aims to wean the EU off its reliance 
+on Russian energy and accelerate the energy transition to ensure long-term energy security. Over the three years of its implementation, the initiative has significantly reduced energy imports from 
+Russia and either met or exceeded the targets for energy transition. Consequently, it has successfully achieved its initial objectives: decoupling from Russian energy dependence and safeguarding EU 
+energy security. In other words, the EU has, up to this point, achieved the short-term objectives set out in the REPowerEU Plan, but there are still issues regarding the long-term goals associated 
+with the energy transition. Such as the disparate interests among EU member states during the energy transition, leading to notable variations in the progress of energy transformation. Therefore, 
+this essay contends that while the plan effectively ensures EU energy security, it is not without flaws.
+
+Based on the aforementioned analysis, this essay posits that the EU should establish more precise objectives and conditions for each REPowerEU measure, allowing individual countries to implement the 
+plan flexibly based on their specific circumstances. (1488 Words)
+
+\section{Testforreferences}
+This is the first reference\parencite{andrikogiannopoulou_reassessing_2019}. This reference is intended to test the simultaneous reference of two articles\parencite{barras_false_nodate,lee_boosting_2024}.
+
+\textcite{wang_robust_2024} deliver a robust theory.
+
+\section{Test for image and table}
+
+This is first table % 用的是自带的tabular*宏包，用于自动对齐文本宽度（而宏包tabular仅根据内容调整表格宽度）。内容无需换行或内容短优先使用
+\begin{table}[htbp] % 这里的htbp表示浮动位置，h=here, t=top, b=bottom, p=page of floats
+\centering % 表格居中
+\caption{An Example of a Well-Formed Table} % 表格标题
+\label{tab:tab 1} % 用于文中引用表格
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} lcr @{}} % lcr代表三列，分别是左对齐、居中、右对齐，前面的fill用于自动调整列间距（以空白填充）
+\toprule
+Item & Quantity & Price \\
+\midrule
+Apple & 10 & \$1.25 \\
+Banana & 5 & \$0.75 \\
+Orange & 8 & \$1.50 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+This is second table % 用的是tabularx宏包，用于自动调整列宽。存在长内容优先使用
+\begin{table}[htbp]
+\centering
+\caption{a more complex specification table}
+\label{tab:tab 2}
+\begin{tabularx}{\textwidth}{@{}llX@{}} % llX代表三列，前两列左对齐，第三列自动调整宽度以填满表格宽度
+\toprule
+Category & Item & \multicolumn{1}{c}{Description} \\
+\midrule
+\multirow{2}{*}{Fruit} % Fruit跨两行，使用multirow宏包实现
+& Apple & A common temperate fruit, rich in vitamins and fiber. \\
+& Orange & A citrus fruit known for its high vitamin C content. \\
+\midrule
+\multicolumn{2}{@{}l}{Total} & Two types of fruit \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure}[htbp] % h-here, t-top, b-bottom, p-page
+\centering % 居中显示图片
+\includegraphics[width=0.8\textwidth]{../pic/EE2_1.png} % 插入图片，宽度为文本宽度的80%
+\caption{Stranger Things}
+\label{fig:fig 1} % 设置引用标签
+\end{figure}
+
+% 参考文献
+\newpage
+\printbibliography[title={References}]
+
+\end{document}

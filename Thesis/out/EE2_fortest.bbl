@@ -1,0 +1,507 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global/global}
+    \entry{andrikogiannopoulou_reassessing_2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b12190c3efa1de963ded669edcacc323}{%
+           family={Andrikogiannopoulou},
+           familyi={A\bibinitperiod},
+           given={Angie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63fd9eaa8da315c2a8a085c03e469876}{%
+           family={Papakonstantinou},
+           familyi={P\bibinitperiod},
+           given={Filippos},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{fullhash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{fullhashraw}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{bibnamehash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{authorbibnamehash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{authornamehash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{authorfullhash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{authorfullhashraw}{b838b2a0a07fab4b02c74298ba8cc035}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Barras, Scaillet, and Wermers propose the false discovery rate ({FDR}) to separate skill (alpha) from luck in fund performance. Using simulations with parameters informed by the data, we ﬁnd that this methodology is conservative and underestimates the proportion of nonzero-alpha funds. For example, 65\% of funds with economically large alphas of ±2\% are misclassiﬁed as zero alpha. This bias arises from the low signalto-noise ratio in fund returns and the resulting low statistical power. Our results question {FDR}’s applicability in performance evaluation and other domains with low power, and can materially change the conclusion that most funds have zero alpha.}
+      \field{issn}{0022-1082, 1540-6261}
+      \field{journaltitle}{The Journal of Finance}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{Publisher: Wiley}
+      \field{number}{5}
+      \field{shorttitle}{Reassessing False Discoveries in Mutual Fund Performance}
+      \field{title}{Reassessing false discoveries in mutual fund performance: Skill, luck, or lack of power?}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{74}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2667\bibrangedash 2688}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1111/jofi.12784
+      \endverb
+      \verb{file}
+      \verb Andrikogiannopoulou和Papakonstantinou - 2019 - Reassessing false discoveries in mutual fund performance Skill, luck, or lack of power.pdf:/Users/selongyu/Zotero/storage/SVIM9C9A/Andrikogiannopoulou和Papakonstantinou - 2019 - Reassessing false discoveries in mutual fund performance Skill, luck, or lack of power.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/jofi.12784
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/jofi.12784
+      \endverb
+    \endentry
+    \entry{barras_false_nodate}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bcdc2b20764592dfa9d7caf4cf30b76e}{%
+           family={Barras},
+           familyi={B\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e69a37d171e5aad3695f86dd97b2cee9}{%
+           family={Scaillet},
+           familyi={S\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a38bc9479bf6d912c1062934d3d42ce9}{%
+           family={Wermers},
+           familyi={W\bibinitperiod},
+           given={Russ},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c45f6d3839fdde2383661ba017e5f52}
+      \strng{fullhash}{394a1cf2209ed400a0a53d5c22b6feef}
+      \strng{fullhashraw}{394a1cf2209ed400a0a53d5c22b6feef}
+      \strng{bibnamehash}{394a1cf2209ed400a0a53d5c22b6feef}
+      \strng{authorbibnamehash}{394a1cf2209ed400a0a53d5c22b6feef}
+      \strng{authornamehash}{3c45f6d3839fdde2383661ba017e5f52}
+      \strng{authorfullhash}{394a1cf2209ed400a0a53d5c22b6feef}
+      \strng{authorfullhashraw}{394a1cf2209ed400a0a53d5c22b6feef}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper develops a simple technique that controls for “false discoveries,” or mutual funds that exhibit signiﬁcant alphas by luck alone. Our approach precisely separates funds into (1) unskilled, (2) zero-alpha, and (3) skilled funds, even with dependencies in cross-fund estimated alphas. We ﬁnd that 75\% of funds exhibit zero alpha (net of expenses), consistent with the Berk and Green equilibrium. Further, we ﬁnd a signiﬁcant proportion of skilled (positive alpha) funds prior to 1996, but almost none by 2006. We also show that controlling for false discoveries substantially improves the ability to ﬁnd the few funds with persistent performance.}
+      \field{langid}{english}
+      \field{title}{False discoveries in mutual fund performance: Measuring luck in estimated alphas}
+      \verb{file}
+      \verb Barras 等 - False discoveries in mutual fund performance Measuring luck in estimated alphas.pdf:/Users/selongyu/Zotero/storage/GAL6FF7B/Barras 等 - False discoveries in mutual fund performance Measuring luck in estimated alphas.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{lee_boosting_2024}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a79b74897f8824dd36ff5975bfa44f03}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Junu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=893a9fe00ec4ad17cea54b623cdb8f3a}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Zhimei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{67b962532172d75c135d089211b8afa0}
+      \strng{fullhash}{67b962532172d75c135d089211b8afa0}
+      \strng{fullhashraw}{67b962532172d75c135d089211b8afa0}
+      \strng{bibnamehash}{67b962532172d75c135d089211b8afa0}
+      \strng{authorbibnamehash}{67b962532172d75c135d089211b8afa0}
+      \strng{authornamehash}{67b962532172d75c135d089211b8afa0}
+      \strng{authorfullhash}{67b962532172d75c135d089211b8afa0}
+      \strng{authorfullhashraw}{67b962532172d75c135d089211b8afa0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The e-{BH} procedure is an e-value-based multiple testing procedure that provably controls the false discovery rate ({FDR}) under any dependence structure between the e-values. Despite this appealing theoretical {FDR} control guarantee, the e-{BH} procedure often suffers from low power in practice. In this paper, we propose a general framework that boosts the power of e-{BH} without sacrificing its {FDR} control under arbitrary dependence. This is achieved by the technique of conditional calibration, where we take as input the e-values and calibrate them to be a set of “boosted e-values” that are guaranteed to be no less—and are often more—powerful than the original ones. Our general framework is explicitly instantiated in three classes of multiple testing problems: (1) testing under parametric models, (2) conditional independence testing under the model-X setting, and (3) model-free conformalized selection. Extensive numerical experiments show that our proposed method significantly improves the power of e-{BH} while continuing to control the {FDR}. We also demonstrate the effectiveness of our method through an application to an observational study dataset for identifying individuals whose counterfactuals satisfy certain properties.}
+      \field{day}{26}
+      \field{eprinttype}{arxiv}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{{arXiv}:2404.17562}
+      \field{title}{Boosting e-{BH} via conditional calibration}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2404.17562
+      \endverb
+      \verb{eprint}
+      \verb 2404.17562 [stat]
+      \endverb
+      \verb{file}
+      \verb Lee和Ren - 2024 - Boosting e-BH via conditional calibration.pdf:/Users/selongyu/Zotero/storage/N4SZUBXY/Lee和Ren - 2024 - Boosting e-BH via conditional calibration.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2404.17562
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2404.17562
+      \endverb
+    \endentry
+    \entry{wang_robust_2024}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=dee7e6a5fcee84e97e352c041ef63d18}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hongfei},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94443ccb1fcc90ec8ebbe4b67138fa01}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1201d10b2d5d1a4cadc65d7f12a9bf7d}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a5e855c6857be1ac64c355de779faf7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhaojun},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{1e85e869de16f4df64b7b9176e5f0046}
+      \strng{fullhash}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \strng{fullhashraw}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \strng{bibnamehash}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \strng{authorbibnamehash}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \strng{authornamehash}{1e85e869de16f4df64b7b9176e5f0046}
+      \strng{authorfullhash}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \strng{authorfullhashraw}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this article, we address the challenge of identifying skilled mutual funds among a large pool of candidates, utilizing the linear factor pricing model. Assuming observable factors with a weak correlation structure for the idiosyncratic error, we propose a spatial-sign based multiple testing procedure ({SS}-{BH}). When latent factors are present, we first extract them using the elliptical principle component method (He et al., 2022) and then propose a factor-adjusted spatial-sign based multiple testing procedure ({FSS}-{BH}). Simulation studies demonstrate that our proposed {FSS}-{BH} procedure performs exceptionally well across various applications and exhibits robustness to variations in the covariance structure and the distribution of the error term. Additionally, real data application further highlights the superiority of the {FSS}-{BH} procedure.}
+      \field{day}{21}
+      \field{eprinttype}{arxiv}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{{arXiv}:2411.14016}
+      \field{title}{Robust mutual fund selection with false discovery rate control}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2411.14016
+      \endverb
+      \verb{eprint}
+      \verb 2411.14016 [stat]
+      \endverb
+      \verb{file}
+      \verb Wang 等 - 2024 - Robust mutual fund selection with false discovery rate control.pdf:/Users/selongyu/Zotero/storage/LCFFSQXD/Wang 等 - 2024 - Robust mutual fund selection with false discovery rate control.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2411.14016
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2411.14016
+      \endverb
+      \keyw{⭐⭐⭐⭐⭐}
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{andrikogiannopoulou_reassessing_2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b12190c3efa1de963ded669edcacc323}{%
+           family={Andrikogiannopoulou},
+           familyi={A\bibinitperiod},
+           given={Angie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63fd9eaa8da315c2a8a085c03e469876}{%
+           family={Papakonstantinou},
+           familyi={P\bibinitperiod},
+           given={Filippos},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{fullhash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{fullhashraw}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{bibnamehash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{authorbibnamehash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{authornamehash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{authorfullhash}{b838b2a0a07fab4b02c74298ba8cc035}
+      \strng{authorfullhashraw}{b838b2a0a07fab4b02c74298ba8cc035}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Barras, Scaillet, and Wermers propose the false discovery rate ({FDR}) to separate skill (alpha) from luck in fund performance. Using simulations with parameters informed by the data, we ﬁnd that this methodology is conservative and underestimates the proportion of nonzero-alpha funds. For example, 65\% of funds with economically large alphas of ±2\% are misclassiﬁed as zero alpha. This bias arises from the low signalto-noise ratio in fund returns and the resulting low statistical power. Our results question {FDR}’s applicability in performance evaluation and other domains with low power, and can materially change the conclusion that most funds have zero alpha.}
+      \field{issn}{0022-1082, 1540-6261}
+      \field{journaltitle}{The Journal of Finance}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{Publisher: Wiley}
+      \field{number}{5}
+      \field{shorttitle}{Reassessing False Discoveries in Mutual Fund Performance}
+      \field{title}{Reassessing false discoveries in mutual fund performance: Skill, luck, or lack of power?}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{74}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2667\bibrangedash 2688}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1111/jofi.12784
+      \endverb
+      \verb{file}
+      \verb Andrikogiannopoulou和Papakonstantinou - 2019 - Reassessing false discoveries in mutual fund performance Skill, luck, or lack of power.pdf:/Users/selongyu/Zotero/storage/SVIM9C9A/Andrikogiannopoulou和Papakonstantinou - 2019 - Reassessing false discoveries in mutual fund performance Skill, luck, or lack of power.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/jofi.12784
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/jofi.12784
+      \endverb
+    \endentry
+    \entry{barras_false_nodate}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bcdc2b20764592dfa9d7caf4cf30b76e}{%
+           family={Barras},
+           familyi={B\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e69a37d171e5aad3695f86dd97b2cee9}{%
+           family={Scaillet},
+           familyi={S\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a38bc9479bf6d912c1062934d3d42ce9}{%
+           family={Wermers},
+           familyi={W\bibinitperiod},
+           given={Russ},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c45f6d3839fdde2383661ba017e5f52}
+      \strng{fullhash}{394a1cf2209ed400a0a53d5c22b6feef}
+      \strng{fullhashraw}{394a1cf2209ed400a0a53d5c22b6feef}
+      \strng{bibnamehash}{394a1cf2209ed400a0a53d5c22b6feef}
+      \strng{authorbibnamehash}{394a1cf2209ed400a0a53d5c22b6feef}
+      \strng{authornamehash}{3c45f6d3839fdde2383661ba017e5f52}
+      \strng{authorfullhash}{394a1cf2209ed400a0a53d5c22b6feef}
+      \strng{authorfullhashraw}{394a1cf2209ed400a0a53d5c22b6feef}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper develops a simple technique that controls for “false discoveries,” or mutual funds that exhibit signiﬁcant alphas by luck alone. Our approach precisely separates funds into (1) unskilled, (2) zero-alpha, and (3) skilled funds, even with dependencies in cross-fund estimated alphas. We ﬁnd that 75\% of funds exhibit zero alpha (net of expenses), consistent with the Berk and Green equilibrium. Further, we ﬁnd a signiﬁcant proportion of skilled (positive alpha) funds prior to 1996, but almost none by 2006. We also show that controlling for false discoveries substantially improves the ability to ﬁnd the few funds with persistent performance.}
+      \field{langid}{english}
+      \field{title}{False discoveries in mutual fund performance: Measuring luck in estimated alphas}
+      \verb{file}
+      \verb Barras 等 - False discoveries in mutual fund performance Measuring luck in estimated alphas.pdf:/Users/selongyu/Zotero/storage/GAL6FF7B/Barras 等 - False discoveries in mutual fund performance Measuring luck in estimated alphas.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{lee_boosting_2024}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a79b74897f8824dd36ff5975bfa44f03}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Junu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=893a9fe00ec4ad17cea54b623cdb8f3a}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Zhimei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{67b962532172d75c135d089211b8afa0}
+      \strng{fullhash}{67b962532172d75c135d089211b8afa0}
+      \strng{fullhashraw}{67b962532172d75c135d089211b8afa0}
+      \strng{bibnamehash}{67b962532172d75c135d089211b8afa0}
+      \strng{authorbibnamehash}{67b962532172d75c135d089211b8afa0}
+      \strng{authornamehash}{67b962532172d75c135d089211b8afa0}
+      \strng{authorfullhash}{67b962532172d75c135d089211b8afa0}
+      \strng{authorfullhashraw}{67b962532172d75c135d089211b8afa0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The e-{BH} procedure is an e-value-based multiple testing procedure that provably controls the false discovery rate ({FDR}) under any dependence structure between the e-values. Despite this appealing theoretical {FDR} control guarantee, the e-{BH} procedure often suffers from low power in practice. In this paper, we propose a general framework that boosts the power of e-{BH} without sacrificing its {FDR} control under arbitrary dependence. This is achieved by the technique of conditional calibration, where we take as input the e-values and calibrate them to be a set of “boosted e-values” that are guaranteed to be no less—and are often more—powerful than the original ones. Our general framework is explicitly instantiated in three classes of multiple testing problems: (1) testing under parametric models, (2) conditional independence testing under the model-X setting, and (3) model-free conformalized selection. Extensive numerical experiments show that our proposed method significantly improves the power of e-{BH} while continuing to control the {FDR}. We also demonstrate the effectiveness of our method through an application to an observational study dataset for identifying individuals whose counterfactuals satisfy certain properties.}
+      \field{day}{26}
+      \field{eprinttype}{arxiv}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{{arXiv}:2404.17562}
+      \field{title}{Boosting e-{BH} via conditional calibration}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2404.17562
+      \endverb
+      \verb{eprint}
+      \verb 2404.17562 [stat]
+      \endverb
+      \verb{file}
+      \verb Lee和Ren - 2024 - Boosting e-BH via conditional calibration.pdf:/Users/selongyu/Zotero/storage/N4SZUBXY/Lee和Ren - 2024 - Boosting e-BH via conditional calibration.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2404.17562
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2404.17562
+      \endverb
+    \endentry
+    \entry{wang_robust_2024}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=dee7e6a5fcee84e97e352c041ef63d18}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hongfei},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94443ccb1fcc90ec8ebbe4b67138fa01}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1201d10b2d5d1a4cadc65d7f12a9bf7d}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a5e855c6857be1ac64c355de779faf7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhaojun},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{1e85e869de16f4df64b7b9176e5f0046}
+      \strng{fullhash}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \strng{fullhashraw}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \strng{bibnamehash}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \strng{authorbibnamehash}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \strng{authornamehash}{1e85e869de16f4df64b7b9176e5f0046}
+      \strng{authorfullhash}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \strng{authorfullhashraw}{69b7f2189d1c8e2d147ae2813fbf7e9c}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this article, we address the challenge of identifying skilled mutual funds among a large pool of candidates, utilizing the linear factor pricing model. Assuming observable factors with a weak correlation structure for the idiosyncratic error, we propose a spatial-sign based multiple testing procedure ({SS}-{BH}). When latent factors are present, we first extract them using the elliptical principle component method (He et al., 2022) and then propose a factor-adjusted spatial-sign based multiple testing procedure ({FSS}-{BH}). Simulation studies demonstrate that our proposed {FSS}-{BH} procedure performs exceptionally well across various applications and exhibits robustness to variations in the covariance structure and the distribution of the error term. Additionally, real data application further highlights the superiority of the {FSS}-{BH} procedure.}
+      \field{day}{21}
+      \field{eprinttype}{arxiv}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{{arXiv}:2411.14016}
+      \field{title}{Robust mutual fund selection with false discovery rate control}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2411.14016
+      \endverb
+      \verb{eprint}
+      \verb 2411.14016 [stat]
+      \endverb
+      \verb{file}
+      \verb Wang 等 - 2024 - Robust mutual fund selection with false discovery rate control.pdf:/Users/selongyu/Zotero/storage/LCFFSQXD/Wang 等 - 2024 - Robust mutual fund selection with false discovery rate control.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2411.14016
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2411.14016
+      \endverb
+      \keyw{⭐⭐⭐⭐⭐}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
