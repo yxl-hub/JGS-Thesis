@@ -6,3 +6,4 @@
 ### 本地LaTeX环境配置
 - 主要参考资源
   - 【LaTeX 环境配置 (macOS). Strik0r. LaTeX 教程.】https://www.bilibili.com/video/BV1xCNfejEMv?vd_source=03933c815d0479ac0dc2b0f082cd8fb8
+  - 【知乎--VS Code 配置 LaTeX 时如何实现源代码与目标文件的分离】https://zhuanlan.zhihu.com/p/24397052814
