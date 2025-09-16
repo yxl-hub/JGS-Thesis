@@ -5,4 +5,4 @@
 
 ### 本地LaTeX环境配置
 - 主要参考资源
-  - 
+  - [B站视频（主要参考）](【LaTeX 环境配置 (macOS). Strik0r. LaTeX 教程.】https://www.bilibili.com/video/BV1xCNfejEMv?vd_source=03933c815d0479ac0dc2b0f082cd8fb8)
