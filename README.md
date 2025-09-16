@@ -11,11 +11,11 @@
   - Thesis文件夹即为本地配置时推荐文件设置，src用于储存LaTeX源码（参考文献也保存于此，推荐使用Zotero），pic用于储存所用图片，out保存输出文件（编译的PDF即保存于此）。
   - 关于Json文件，应该是修改了3处，有一处不记得了，但无伤大雅。
     - 第一处：修改了默认保存即编译的设置
-      ‘’‘Json
+      ```Json
       "latex-workshop.latex.autoBuild.run": "never",
-      ’‘’
+      ```
     - 第二处：编译默认设置由“上次使用”改为默认“xelatex -> biber -> xelatex*2”
       > LaTeX模板即是使用的该流程xelatex -> biber -> xelatex*2
-      ‘’‘Json
+      ```Json
       "latex-workshop.latex.recipe.default": "xelatex -> biber -> xelatex*2",
-      ’‘’
+      ```
