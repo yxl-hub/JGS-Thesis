@@ -25,5 +25,5 @@
 ## 关于课程论文模版部分说明
 
 # 硕士论文
-[硕士论文模板Github仓库地址]()
+[硕士论文模板Github仓库地址](https://github.com/NewFuture/NKThesis)
 待更新
