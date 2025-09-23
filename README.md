@@ -9,7 +9,7 @@
   - 【知乎--VS Code 配置 LaTeX 时如何实现源代码与目标文件的分离】https://zhuanlan.zhihu.com/p/24397052814
 - 额外说明
   - Thesis文件夹即为本地配置时推荐文件设置，src用于储存LaTeX源码（参考文献也保存于此，推荐使用Zotero），pic用于储存所用图片，out保存输出文件（编译的PDF即保存于此）。
-  - 关于Json文件，应该是修改了3处，有一处不记得了，但无伤大雅。
+  - 关于Json文件，应该是修改了3处。
     - 第一处：修改了”默认保存即编译“的设置
       ```Json
       "latex-workshop.latex.autoBuild.run": "never"
@@ -19,8 +19,10 @@
       ```Json
       "latex-workshop.latex.recipe.default": "xelatex -> biber -> xelatex*2"
       ```
+    - 第三处：记得是修改的是否自动删除编译产生的过程文件，保留原设置是好的，但我懒得改回去了
 
 ### Overleaf
+- 直接注册使用就好，界面如下
 
 ## 关于课程论文模版部分说明
 
