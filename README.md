@@ -1,12 +1,12 @@
 # JGS-Thesis
 包含课程论文模板（以预科课程论文要求为基准），未来可能包括毕业论文模板。
 ## 编辑环境配置
-> 主要是本地环境和线上环境。前者主推TeXLive+VS Code实现（IDE不推荐），后者强推Overleaf（格拉斯哥有买相关资源）
+> 主要是本地环境和线上环境。前者主推TeXLive+VS Code实现，后者强推Overleaf（格拉斯哥有买相关资源）
 
 ### 本地LaTeX环境配置（TeX Live+VS code）
 - 主要参考资源
-  - 【LaTeX 环境配置 (macOS). Strik0r. LaTeX 教程.】https://www.bilibili.com/video/BV1xCNfejEMv?vd_source=03933c815d0479ac0dc2b0f082cd8fb8
-  - 【知乎--VS Code 配置 LaTeX 时如何实现源代码与目标文件的分离】https://zhuanlan.zhihu.com/p/24397052814
+  - [LaTeX 环境配置 (macOS). Strik0r. LaTeX 教程.](https://www.bilibili.com/video/BV1xCNfejEMv?vd_source=03933c815d0479ac0dc2b0f082cd8fb8)
+  - [知乎--VS Code 配置 LaTeX 时如何实现源代码与目标文件的分离](https://zhuanlan.zhihu.com/p/24397052814)
 - 额外说明
   - Thesis文件夹即为本地配置时推荐文件设置，src用于储存LaTeX源码（参考文献也保存于此，推荐使用Zotero），pic用于储存所用图片，out保存输出文件（编译的PDF即保存于此）。
   - 关于Json文件，应该是修改了3处。
@@ -23,9 +23,16 @@
 
 ### Overleaf
 - 直接注册使用就好，界面如下
+  ![界面](./pic4readme/jiemian.PNG)
+- 只需要进入菜单->设置->编译器，修改为XeLaTeX即可
+  ![设置](./pic4readme/shezhi.PNG)
+- 关于上述提到的订阅，只需要正常注册账号，然后在主页->Solutions->为大学提供->View institutions using Overleaf(下滑)->选择格拉斯哥大学关联账号即可。成功后如下图所示
+  ![订阅](./pic4readme/dingyue.PNG)
+- 使用时如果报错，将输出日志抛给豆包即可解决。如果不行，那就给GPT
 
 ## 关于课程论文模版部分说明
-
+- 里面包含了必要的解释
+- 表格和图片（⚠️图片路径）仅进行了部分示例，若想实现复杂实现或者插入表格或图片目录，请自行解决（或在LLM帮助下解决）
 # 硕士论文
 [硕士论文模板Github仓库地址](https://github.com/NewFuture/NKThesis)
 待更新
