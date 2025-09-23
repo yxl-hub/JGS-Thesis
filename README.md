@@ -23,11 +23,11 @@
 
 ### Overleaf
 - 直接注册使用就好，界面如下
-  ![界面](./pic4readme/jiemian.PNG)
+  ![界面](./pic4readme/jiemian.png)
 - 只需要进入菜单->设置->编译器，修改为XeLaTeX即可
-  ![设置](./pic4readme/shezhi.PNG)
+  ![设置](./pic4readme/shezhi.png)
 - 关于上述提到的订阅，只需要正常注册账号，然后在主页->Solutions->为大学提供->View institutions using Overleaf(下滑)->选择格拉斯哥大学关联账号即可。成功后如下图所示
-  ![订阅](./pic4readme/dingyue.PNG)
+  ![订阅](./pic4readme/dingyue.png)
 - 使用时如果报错，将输出日志抛给豆包即可解决。如果不行，那就给GPT
 
 ## 关于课程论文模版部分说明
