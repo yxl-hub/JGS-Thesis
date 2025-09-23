@@ -17,6 +17,8 @@
 \usepackage{titlesec}
 \titleformat{\section}{\fontsize{14pt}{14pt}\bfseries}{\thesection}{1em}{}
 \titleformat{\subsection}{\fontsize{14pt}{14pt}\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\fontsize{14pt}{14pt}\bfseries}{\thesubsubsection}{1em}{}
+
 % 设置 \section 标题的间距
 \titlespacing*{\section}
     {0pt}                % 1. 左边距 (left margin)
@@ -131,12 +133,13 @@ this essay contends that while the plan effectively ensures EU energy security, 
 Based on the aforementioned analysis, this essay posits that the EU should establish more precise objectives and conditions for each REPowerEU measure, allowing individual countries to implement the 
 plan flexibly based on their specific circumstances. (1488 Words)
 
-\section{Testforreferences}
+\section{Test}
+\subsection{Test for references}
 This is the first reference\parencite{andrikogiannopoulou_reassessing_2019}. This reference is intended to test the simultaneous reference of two articles\parencite{barras_false_nodate,lee_boosting_2024}.
 
 \textcite{wang_robust_2024} deliver a robust theory.
 
-\section{Test for image and table}
+\subsection{Test for image and table}
 
 This is the first table % 用的是自带的tabular*宏包，用于自动对齐文本宽度（而宏包tabular仅根据内容调整表格宽度）。内容无需换行或内容短优先使用
 \begin{table}[htbp] % 这里的htbp表示浮动位置，h=here, t=top, b=bottom, p=page of floats
@@ -178,6 +181,16 @@ Category & Item & \multicolumn{1}{c}{Description} \\
 \caption{Stranger Things}
 \label{fig:fig 1} % 设置引用标签
 \end{figure}
+
+\subsection{Test for formula}
+% 无编号或行内公式, 用$...$或\[...\], 建议使用后者，但我喜欢用前者，因为MarkDown也是用的前者
+This is an inline formula: $E=mc^2$.
+
+% 有编号并且可以交叉引用
+\begin{equation}
+\label{eq:equ 1}
+e_i^{\text{agg}*} = \frac{1}{n_i} \sum_{k=1}^{n_i} \binom{n_i}{k}^{-1} \sum\limits_{\mathcal{S}_{ki} \in \mathcal{B}_{ki}} \pi^k A_{i,\mathcal{S}_{ki}}
+\end{equation}
 
 % 参考文献
 \newpage
