@@ -31,10 +31,11 @@
 - 使用时如果报错，将输出日志抛给豆包即可解决。如果不行，那就给GPT
 
 ## 关于课程论文模版部分说明
+> 目前来看有一点不满的是两个subtittle之间的间距，并不美观，但目前没找到很好的解决方式，欢迎提供建议。
 - **LaTeX听起来很高级，但用起来其实很简单，针对论文这种格式明确的问题尤其适用。在有模板的情况下只需要做点微调，然后填内容就好了，大体框架可以问豆包了解**
 - 里面包含了必要的解释
 - 表格和图片（⚠️图片路径）仅进行了部分示例，若想实现复杂实现或者插入表格或图片目录，请自行解决（或在LLM帮助下解决）
-- **个人工作流：MarkDown（Typroa）负责所有文字尤其是包括公式的工作，类似于word，但更简化和规范化；LaTeX（VScode或Overleaf--需要协作使用Overleaf）负责论文写作或Slides制作（极度简化的Slides,Github有相关模版）**。实际操作中可以在MarkDown完成初稿，复制到LaTeX编译即可。
+- **个人工作流：MarkDown（Typroa）负责所有文字尤其是包括公式的工作，类似于word，但更简化和规范化--或许你已经注意到这个README便是MarkDown格式的；LaTeX（VScode或Overleaf--需要协作使用Overleaf）负责论文写作或Slides制作（极度简化的Slides,Github有相关模版）**。实际操作中可以在MarkDown完成初稿，复制到LaTeX编译即可。
 # 硕士论文
 [硕士论文模板Github仓库地址](https://github.com/NewFuture/NKThesis)
 
