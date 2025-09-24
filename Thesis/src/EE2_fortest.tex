@@ -17,13 +17,19 @@
 \usepackage{titlesec}
 \titleformat{\section}{\fontsize{14pt}{14pt}\bfseries}{\thesection}{1em}{}
 \titleformat{\subsection}{\fontsize{14pt}{14pt}\bfseries}{\thesubsection}{1em}{}
-\titleformat{\subsubsection}{\fontsize{14pt}{14pt}\bfseries}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\fontsize{12pt}{12pt}\bfseries}{\thesubsubsection}{1em}{}
 
 % 设置 \section 标题的间距
 \titlespacing*{\section}
     {0pt}                % 1. 左边距 (left margin)
-    {2\baselineskip}     % 2. 段前间距 (space before)
-    {1\baselineskip}     % 3. 段后间距 (space after)
+    {1\baselineskip}     % 2. 段前间距 (space before)
+    {0pt}                % 3. 段后间距 (space after)
+
+% 设置 \subsection 标题的间距
+\titlespacing*{\subsection}
+    {0pt}                % 1. 左边距 (left margin)
+    {1\baselineskip}     % 2. 段前间距 (space before)
+    {0pt}                % 3. 段后间距 (space after)
 
 % 页码居中
 \usepackage{fancyhdr}
@@ -48,6 +54,7 @@
 \usepackage{booktabs} % 用于漂亮的表格线
 \usepackage{multirow} % 如果需要合并行
 \usepackage{tabularx} % 用于自动调整列宽
+\usepackage{float}    % 支持表格/图片的[H]强制固定位置参数
 
 %公式及超链接
 \usepackage{amsmath}
@@ -134,18 +141,26 @@ Based on the aforementioned analysis, this essay posits that the EU should estab
 plan flexibly based on their specific circumstances. (1488 Words)
 
 \section{Test}
+
+% 调整特定章节的间距
+\titlespacing{\subsection}{0pt}{0\baselineskip}{0pt} % 临时调整间距，左缩进，上间距，下间距
+
 \subsection{Test for references}
 This is the first reference\parencite{andrikogiannopoulou_reassessing_2019}. This reference is intended to test the simultaneous reference of two articles\parencite{barras_false_nodate,lee_boosting_2024}.
 
 \textcite{wang_robust_2024} deliver a robust theory.
 
+% 调整特定章节的间距
+\titlespacing{\subsection}{0pt}{1\baselineskip}{0pt} % 调整回原始间距，左缩进，上间距，下间距
+
 \subsection{Test for image and table}
 
 This is the first table % 用的是自带的tabular*宏包，用于自动对齐文本宽度（而宏包tabular仅根据内容调整表格宽度）。内容无需换行或内容短优先使用
-\begin{table}[htbp] % 这里的htbp表示浮动位置，h=here, t=top, b=bottom, p=page of floats
-\centering % 表格居中
-\caption{An Example of a Well-Formed Table} % 表格标题
-\label{tab:tab 1} % 用于文中引用表格
+
+\begin{table}[H]
+\centering
+\caption{a table}
+\label{tab:tab 1}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} lcr @{}} % lcr代表三列，分别是左对齐、居中、右对齐，前面的fill用于自动调整列间距（以空白填充）
 \toprule
 Item & Quantity & Price \\
@@ -158,7 +173,8 @@ Orange & 8 & \$1.50 \\
 \end{table}
 
 This is the second table % 用的是tabularx宏包，用于自动调整列宽。存在长内容优先使用
-\begin{table}[htbp]
+
+\begin{table}[htbp] % 这里的htbp表示浮动位置，h=here, t=top, b=bottom, p=page of floats
 \centering
 \caption{a more complex specification table}
 \label{tab:tab 2}
@@ -175,6 +191,7 @@ Category & Item & \multicolumn{1}{c}{Description} \\
 \end{tabularx}
 \end{table}
 
+This is an image
 \begin{figure}[htbp] % h-here, t-top, b-bottom, p-page
 \centering % 居中显示图片
 \includegraphics[width=0.8\textwidth]{../pic/EE2_1.png} % 插入图片，宽度为文本宽度的80%
