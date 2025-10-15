@@ -41,6 +41,8 @@
 % APA 7 参考文献
 \usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
 \DeclareLanguageMapping{english}{english-apa}
+% 清除 note 字段的输出
+\DeclareFieldFormat{note}{}
 \addbibresource{EE2.bib} % 参考文献文件
 
 \usepackage{tocloft}
