@@ -21,7 +21,10 @@
       ```Json
       "latex-workshop.latex.recipe.default": "xelatex -> biber -> xelatex*2"
       ```
-    - 第三处：记得是修改的是否自动删除编译产生的过程文件，保留原设置是好的，但我懒得改回去了
+    - 第三处：记得是修改的是否自动删除编译产生的过程文件
+      ```Json
+      "latex-workshop.latex.autoClean.run": "onSucceeded",
+      ```
 
 ### Overleaf
 - 直接注册使用就好，界面如下
@@ -37,6 +40,10 @@
 - **EE2_fortest**就是模板，里面包含了必要的解释。默认是APA 7的参考样式，尝试改过Moodle中给的Harvard样式，目前使用BibLaTeX基于ext-authoryear或apa 7修改均不能完全实现moodle中给的参考样式（你也可以再次尝试）。或许可以考虑使用natbib宏包实现，但一定记得修改文中的引用命令，同时使用该宏包可能存在潜在的兼容性问题。
   - 文中所有内容仅供示例和测试用。
   - 封面是极简化的，如果你愿意可以做个美美的封面。
+    > LLM提示词：如何使用LaTeX设计附件这样的论文封面，两个校徽图片引用使用例子占位展示，只需要给我一个导言区关于封面的设置即可。
+    ![封面](./pic4readme/fengmian.png)
+  
+
   - 两个紧挨着两级标题之间的空间是自定义调整的（仅为美观）。
   - 测试.bib文件是Zotero导出的，所以导言区加入了忽略note的命令。如果你使用endnote或其他文献管理软件，使用APA 7格式却不完全符合该格式，可在LLM帮助下自行解决。
   - **该仓库并非使用git工具管理，后期维护或更新会比较慢**
