@@ -118,7 +118,7 @@
 ],
 "latex-workshop.view.pdf.viewer": "tab",
 "latex-workshop.latex.autoBuild.run": "never",
-"latex-workshop.latex.autoClean.run": "never",
+"latex-workshop.latex.autoClean.run": "onSucceeded",
 "latex-workshop.showContextMenu": true,
 "latex-workshop.intellisense.package.enabled": true,
 "latex-workshop.message.error.show": false,
